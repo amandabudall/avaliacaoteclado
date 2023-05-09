@@ -41,27 +41,7 @@ body{
     align-items: center;
     width: 50px;
     background-color: rgb(216, 240, 238);
-    border: solid 2px #363636;
-}
-.tecla2{
-    margin-left: 23px;
-    text-align: center;
-    height: 75px;
-    justify-content: center;
-    align-items: center;
-    width: 75px;
-    background-color: rgb(216, 240, 238);
-    border: solid 2px #363636;
-}
-.tecla3{
-    margin-left: 23px;
-    text-align: center;
-    height: 65px;
-    justify-content: center;
-    align-items: center;
-    width: 65px;
-    background-color: rgb(216, 240, 238);
-    border: solid 2px #363636;
+    border: solid 2px #181818;
 }
 .num{
     margin-top: 25px;
