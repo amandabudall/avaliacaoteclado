@@ -5,8 +5,116 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e3e5f0;
+}
+
 .teclado{
+    
+    display: flex;
+    flex-direction: column;
     height: 600px;
     width: 1200px;
-    background-color: lightblue;
+    background-color: rgb(151, 194, 209);
+}
+.fs{
+    
+    margin-top: 25px;
+    margin-left: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 1000px;
+    background-color: #779ebe;
+}
+
+.tecla{
+    margin-left: 23px;
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: rgb(216, 240, 238);
+    border: solid 2px #363636;
+}
+.tecla2{
+    margin-left: 23px;
+    text-align: center;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    background-color: rgb(216, 240, 238);
+    border: solid 2px #363636;
+}
+.tecla3{
+    margin-left: 23px;
+    text-align: center;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    background-color: rgb(216, 240, 238);
+    border: solid 2px #363636;
+}
+.num{
+    margin-top: 25px;
+    margin-left: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 1000px;
+    background-color: #517b9c;
+}
+
+.letra{
+    margin-top: 25px;
+    margin-left: 95px;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 1000px;
+    background-color: #446f8f;
+}
+
+.filera1{
+    margin-top: 55px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 25px;
+    display: flex;
+    height: 65px;
+   
+    justify-content: center;
+    align-items: center;
+}
+.filera2{
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 25px;
+    display: flex;
+    height: 65px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.filera3{
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 25px;
+    display: flex;
+    height: 65px;
+   
+    justify-content: center;
+    align-items: center;
 }

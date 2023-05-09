@@ -9,7 +9,88 @@
 </head>
 <body>
    <div class="teclado">
-      a
+      <div class="fs">
+        <div class="tecla" id = "tecla112" onkeydown="Pega_Tecla('F1')">F1</div>
+        <div class="tecla" id = "tecla113" onkeydown="Pega_Tecla('F2')">F2</div>
+        <div class="tecla" id = "tecla114" onkeydown="Pega_Tecla('F3')">F3</div>
+        <div class="tecla" id = "tecla115" onkeydown="Pega_Tecla('F4')">F4</div>
+        <div class="tecla" id = "tecla116" onkeydown="Pega_Tecla('F5')">F5</div>
+        <div class="tecla" id = "tecla117" onkeydown="Pega_Tecla('F6')">F6</div>
+        <div class="tecla" id = "tecla118" onkeydown="Pega_Tecla('F7')">F7</div>
+        <div class="tecla" id = "tecla119" onkeydown="Pega_Tecla('F8')">F8</div>
+        <div class="tecla" id = "tecla120" onkeydown="Pega_Tecla('F9')">F9</div>
+        <div class="tecla" id = "tecla121" onkeydown="Pega_Tecla('F10')">F10</div>
+        <div class="tecla" id = "tecla122" onkeydown="Pega_Tecla('F11')">F11</div>
+        <div class="tecla" id = "tecla123" onkeydown="Pega_Tecla('F12')">F12</div>
+      </div>
+      <div class="num">
+        <div class="tecla3" id = "tecla49" onkeydown="Pega_Tecla('1')">1</div>
+        <div class="tecla3" id = "tecla50" onkeydown="Pega_Tecla('2')">2</div>
+        <div class="tecla3" id = "tecla51" onkeydown="Pega_Tecla('3')">3</div>
+        <div class="tecla3" id = "tecla52" onkeydown="Pega_Tecla('4')">4</div>
+        <div class="tecla3" id = "tecla53" onkeydown="Pega_Tecla('5')">5</div>
+        <div class="tecla3" id = "tecla54" onkeydown="Pega_Tecla('6')">6</div>
+        <div class="tecla3" id = "tecla55" onkeydown="Pega_Tecla('7')">7</div>
+        <div class="tecla3" id = "tecla56" onkeydown="Pega_Tecla('8')">8</div>
+        <div class="tecla3" id = "tecla57" onkeydown="Pega_Tecla('9')">9</div>
+        <div class="tecla3" id = "tecla48" onkeydown="Pega_Tecla('0')">0</div>
+      </div>
+      <div class="letra">
+        <div class="filera1">
+        <div class="tecla2" id = "tecla81" onkeydown="Pega_Tecla('Q')">Q</div>
+        <div class="tecla2" id = "tecla87" onkeydown="Pega_Tecla('W')">W</div>
+        <div class="tecla2" id = "tecla69" onkeydown="Pega_Tecla('E')">E</div>
+        <div class="tecla2" id = "tecla82" onkeydown="Pega_Tecla('R')">R</div>
+        <div class="tecla2" id = "tecla84" onkeydown="Pega_Tecla('T')">T</div>
+        <div class="tecla2" id = "tecla89" onkeydown="Pega_Tecla('Y')">Y</div>
+        <div class="tecla2" id = "tecla85" onkeydown="Pega_Tecla('U')">U</div>
+        <div class="tecla2" id = "tecla73" onkeydown="Pega_Tecla('I')">I</div>
+        <div class="tecla2" id = "tecla79" onkeydown="Pega_Tecla('O')">O</div>
+        <div class="tecla2" id = "tecla80" onkeydown="Pega_Tecla('P')">P</div>
+        </div>
+        <div class="filera2">
+        <div class="tecla2" id = "tecla65" onkeydown="Pega_Tecla('A')">A</div>
+        <div class="tecla2" id = "tecla83" onkeydown="Pega_Tecla('S')">S</div>
+        <div class="tecla2" id = "tecla68" onkeydown="Pega_Tecla('D')">D</div>
+        <div class="tecla2" id = "tecla70" onkeydown="Pega_Tecla('F')">F</div>
+        <div class="tecla2" id = "tecla71" onkeydown="Pega_Tecla('G')">G</div>
+        <div class="tecla2" id = "tecla72" onkeydown="Pega_Tecla('H')">H</div>
+        <div class="tecla2" id = "tecla74" onkeydown="Pega_Tecla('J')">J</div>
+        <div class="tecla2" id = "tecla75" onkeydown="Pega_Tecla('K')">K</div>
+        <div class="tecla2" id = "tecla76" onkeydown="Pega_Tecla('L')">L</div>
+        </div>
+        <div class="filera3">
+        <div class="tecla2" id = "tecla90" onkeydown="Pega_Tecla('A')">Z</div>
+        <div class="tecla2" id = "tecla88" onkeydown="Pega_Tecla('A')">X</div>
+        <div class="tecla2" id = "tecla67" onkeydown="Pega_Tecla('A')">C</div>
+        <div class="tecla2" id = "tecla86" onkeydown="Pega_Tecla('A')">V</div>
+        <div class="tecla2" id = "tecla66" onkeydown="Pega_Tecla('A')">B</div>
+        <div class="tecla2" id = "tecla78" onkeydown="Pega_Tecla('A')">N</div>
+        <div class="tecla2" id = "tecla77" onkeydown="Pega_Tecla('A')">M</div>
+        </div>
+      </div>
    </div> 
 </body>
+
+<script>
+    document.onkeydown
+
+    function Pega_Tecla(e) 
+{   
+    
+    var texto  = e;
+   
+
+    e = e || window.event;
+    tecla = e.keyCode;
+    if(texto = e){
+        document.getElementById("tecla"+tecla).style.backgroundColor = "#1d3557";
+        $("#tecla"+tecla).siblings().css({"backgroundColor": " # "});
+        
+    }
+    console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+
+}
+</script>
+<script src="jquery-3.6.4.min.js"></script>
 </html>
